@@ -10,5 +10,10 @@ export const clamping = (minWidth, maxWidth, minFontSize, maxFontSize) => {
 	const intersection = -minWidth * slope + minFontSize;
 
 	return `clamp( ${minFontSize}rem, ${intersection}rem + ${slope * 100}vw, ${maxFontSize}rem )`;
-	return `max(${minFontSize}rem, min(${intersection}rem + ${slope * 100}vw, ${maxFontSize}rem))`;
 };
+
+export const getRefElement = (element) => {
+	return element?.current ?? element;
+};
+
+export const isSSR = () => typeof window === 'undefined';
