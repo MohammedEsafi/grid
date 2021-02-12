@@ -19,7 +19,7 @@ module.exports = {
 	],
 
 	breakpoints: {
-		desktop: 1000 / 16,
+		desktop: 1024 / 16,
 		tablet: 768 / 16,
 		phone: 480 / 16
 	},
@@ -32,6 +32,11 @@ module.exports = {
 		lg: 18 / 16,
 		xl: 20 / 16,
 		xxl: 22 / 16,
-		heading: 32 / 16
+		heading: 64 / 16
+	},
+
+	mainPadding: {
+		max: 8,
+		min: 1.5
 	}
 };
