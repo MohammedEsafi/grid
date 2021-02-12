@@ -22,6 +22,13 @@ const GlobalStyle = createGlobalStyle`
 		--pink-light: #FD79A8;
 
 		--font: 'Inter', sans-serif;
+
+		--border-radius: 12px;
+		--r-border-radius: 20px;
+		--nav-height: 70px;
+
+		--dp2-box-shadow: 0 1px 3px rgba(38, 50, 56, 0.16), 0 2px 6px rgba(38, 50, 56, 0.08);
+		--white-text-shadow: 0 0.07em var(--white);
 	}
 
 	html {
@@ -37,8 +44,24 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		margin: 0;
 		width: 100%;
-		min-height: 100%;
+		min-height: 100vh;
 		font-family: var(--font);
+		background-color: var(--white);
+	}
+
+	a,
+	a:visited,
+	a:active,
+	a:focus {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	section {
+		padding-left: var(--padding);
+		padding-right: var(--padding);
+		padding-top: 30px;
+		padding-bottom: 70px;
 	}
 `;
 
