@@ -18,7 +18,8 @@ const Wrapper = styled.div`
 
 	${media.tablet`
 		grid-template-columns: 1.5fr 2fr;
-		grid-template-rows: minmax(100px, auto) 3fr 2fr 0.5fr;
+		grid-template-rows: minmax(100px, auto) 3fr 2fr auto;
+		margin-top: 25px;
 
 		& > div {
 			&:nth-child(n + 5):nth-child(-n + 9) {
@@ -82,6 +83,11 @@ const Wrapper = styled.div`
 		&:nth-child(10) {
 			grid-row: 4 / 6;
 
+			${media.tablet`
+				grid-row: 4 / 5;
+				grid-column: 2 / 3;
+			`}
+
 			& > button {
 				width: 100%;
 			}
@@ -99,7 +105,9 @@ const StyledLink = styled(Link)`
 const Grid = () => {
 	const refWrapper = useRef(null);
 	const handleResize = useCallback(() => {
-		refWrapper.current.style.height = `${refWrapper.current.offsetWidth * 0.6}px`;
+		let scale = window.innerWidth > 768 ? 0.6 : 0.9;
+
+		refWrapper.current.style.height = `${refWrapper.current.offsetWidth * scale}px`;
 	}, []);
 
 	const setRef = useCallback(
@@ -129,9 +137,6 @@ const Grid = () => {
 			}
 		`
 	);
-
-	[allFile.edges[0], allFile.edges[2]] = [allFile.edges[2], allFile.edges[0]];
-	[allFile.edges[5], allFile.edges[6]] = [allFile.edges[6], allFile.edges[5]];
 
 	useEventListener('resize', handleResize);
 

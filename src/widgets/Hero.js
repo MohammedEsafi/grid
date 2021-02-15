@@ -4,7 +4,7 @@ import { Nav, Grid } from '@components';
 import config from '@config';
 import { clamping } from '@utils';
 
-const { breakpoints, fontSize, mainPadding } = config;
+const { breakpoints, fontSize } = config;
 
 const Header = styled.header`
 	display: flex;
@@ -12,7 +12,6 @@ const Header = styled.header`
 `;
 
 const Content = styled.section`
-	--padding: ${clamping(breakpoints.phone, breakpoints.desktop, mainPadding.min, mainPadding.max)};
 	display: flex;
 	flex-direction: column;
 	min-height: calc(100vh - var(--nav-height));
