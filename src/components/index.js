@@ -5,3 +5,5 @@ export { default as Menu } from './Menu';
 export { default as Button } from './Button';
 export { default as Brand } from './Brand';
 export { default as Grid } from './Grid';
+export { default as Emoji } from './Emoji';
+export { default as Card } from './Card';
