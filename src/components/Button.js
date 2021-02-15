@@ -7,10 +7,12 @@ const StyledButton = styled.button`
 		props.primary
 			? css`
 					background-color: var(--black);
+					border: none;
 					color: var(--white);
 			  `
 			: css`
 					background-color: var(--white);
+					border: 1px solid var(--gray-light);
 					color: var(--purple-dark);
 			  `};
 	${(props) =>
@@ -22,7 +24,6 @@ const StyledButton = styled.button`
 					border-radius: var(--border-radius);
 			  `};
 	cursor: pointer;
-	border: none;
 
 	&:focus {
 		outline: none;
