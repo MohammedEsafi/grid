@@ -1,4 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+import { clamping } from '@utils';
+import config from '@config';
+
+const { breakpoints, fontSize, mainPadding } = config;
 
 const GlobalStyle = createGlobalStyle`
 	:root {
@@ -23,6 +27,7 @@ const GlobalStyle = createGlobalStyle`
 
 		--font: 'Inter', sans-serif;
 
+		--padding: ${clamping(breakpoints.phone, breakpoints.desktop, mainPadding.min, mainPadding.max)};
 		--border-radius: 12px;
 		--r-border-radius: 20px;
 		--nav-height: 70px;
@@ -62,6 +67,15 @@ const GlobalStyle = createGlobalStyle`
 		padding-right: var(--padding);
 		padding-top: 30px;
 		padding-bottom: 70px;
+	}
+ 
+	p, h1, h2, h3, h4 {
+		color: var(--black);
+	}
+
+	p {
+		line-height: 2em;
+		font-size: ${clamping(breakpoints.phone, breakpoints.desktop, fontSize.xs, fontSize.sm)};
 	}
 `;
 
