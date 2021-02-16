@@ -7,3 +7,4 @@ export { default as Brand } from './Brand';
 export { default as Grid } from './Grid';
 export { default as Emoji } from './Emoji';
 export { default as Card } from './Card';
+export { default as Plan } from './Plan';
