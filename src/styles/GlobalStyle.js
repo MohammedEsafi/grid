@@ -32,7 +32,9 @@ const GlobalStyle = createGlobalStyle`
 		--r-border-radius: 20px;
 		--nav-height: 70px;
 
-		--dp2-box-shadow: 0 1px 3px rgba(38, 50, 56, 0.16), 0 2px 6px rgba(38, 50, 56, 0.08);
+		--dp2-box-shadow: 0 1px 3px rgba(38,50,56,0.16), 0 2px 6px rgba(38,50,56,0.08);
+		--p-box-shadow: 0px 16px 24px 0px rgba(38,50,56,0.08), 0px 8px 8px 0px rgba(38,50,56,0.12);
+
 		--white-text-shadow: 0 0.07em var(--white);
 	}
 
