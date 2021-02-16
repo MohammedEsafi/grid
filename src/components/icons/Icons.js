@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Chart, Zap, ThumbsUp } from '@components/icons';
+import { Phone, Chart, Zap, ThumbsUp, Check } from '@components/icons';
 import ProtoTypes from 'prop-types';
 
 const Icons = ({ name }) => {
@@ -12,6 +12,8 @@ const Icons = ({ name }) => {
 			return <Zap />;
 		case 'ThumbsUp':
 			return <ThumbsUp />;
+		case 'Check':
+			return <Check />;
 		default:
 			throw new Error('Icon not found!');
 	}
