@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from '@components';
 import styled from 'styled-components';
-import { Hero, About } from '@widgets';
+import { Hero, About, Plans } from '@widgets';
 
 const StyledMain = styled.main`
 	display: flex;
@@ -14,6 +14,7 @@ const IndexPage = () => {
 			<StyledMain>
 				<Hero />
 				<About />
+				<Plans />
 			</StyledMain>
 		</Layout>
 	);
