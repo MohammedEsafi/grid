@@ -26,7 +26,6 @@ const Heading = styled.h1`
 	)};
 	font-weight: 800;
 	text-align: center;
-	color: var(--black);
 	text-shadow: var(--white-text-shadow);
 	margin-bottom: 0;
 
@@ -57,7 +56,6 @@ const SubTitle = styled.h2`
 	)};
 	font-weight: 800;
 	text-align: center;
-	color: var(--black);
 	text-shadow: var(--white-text-shadow);
 	margin: 0.5em 0 1.5em;
 `;
