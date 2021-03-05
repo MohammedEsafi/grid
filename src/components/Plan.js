@@ -98,7 +98,7 @@ const Plan = ({ title, best = false, price, duration, feature, color }) => {
 		<Wrapper top={best}>
 			<Top>
 				<p>{title}</p>
-				{best && <span class='tag'>BEST!</span>}
+				{best && <span className='tag'>BEST!</span>}
 			</Top>
 			<Price>
 				{price}
