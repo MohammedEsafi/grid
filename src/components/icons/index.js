@@ -3,4 +3,8 @@ export { default as Phone } from './Phone';
 export { default as Zap } from './Zap';
 export { default as ThumbsUp } from './ThumbsUp';
 export { default as Check } from './Check';
+export { default as Facebook } from './Facebook';
+export { default as Linkedin } from './Linkedin';
+export { default as Slack } from './Slack';
+export { default as Twitter } from './Twitter';
 export { default } from './Icons';
