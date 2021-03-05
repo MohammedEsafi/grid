@@ -8,3 +8,6 @@ export { default as Grid } from './Grid';
 export { default as Emoji } from './Emoji';
 export { default as Card } from './Card';
 export { default as Plan } from './Plan';
+export { default as Social } from './Social';
+export { default as Info } from './Info';
+export { default as Contact } from './Contact';
