@@ -99,6 +99,7 @@ const Plans = () => {
 			color: '--green-light'
 		}
 	];
+
 	return (
 		<Wrapper>
 			<Title>Affordable pricing</Title>
