@@ -14,13 +14,13 @@
 Install the required dependencies using ::
 
 ```shell
-npm install
+yarn
 ```
 
 Start developing :: Navigate into your new site’s directory and start it up.
 
 ```shell
-npm run develop
+yarn run develop
 ```
 
 Open the code and start customizing! :: Your site is now running at http://localhost:8000!
