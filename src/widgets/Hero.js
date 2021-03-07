@@ -9,6 +9,7 @@ const { breakpoints, fontSize } = config;
 const Header = styled.header`
 	display: flex;
 	flex-direction: column;
+	box-shadow: var(--dp2-box-shadow);
 `;
 
 const Content = styled.section`

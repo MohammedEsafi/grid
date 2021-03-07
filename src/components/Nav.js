@@ -12,10 +12,12 @@ const StyledNav = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	box-shadow: var(--dp2-box-shadow);
 	height: var(--nav-height);
 	padding-left: var(--padding);
 	padding-right: var(--padding);
+	max-width: 1366px;
+	width: 100%;
+	margin: auto;
 `;
 
 const StyledLink = styled(Link)`

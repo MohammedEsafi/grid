@@ -75,6 +75,7 @@ const List = styled.ul`
 
 		& > p {
 			margin: 0.5em 0;
+			flex: 1;
 		}
 
 		& > span {

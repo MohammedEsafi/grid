@@ -69,6 +69,8 @@ const GlobalStyle = createGlobalStyle`
 		padding-right: var(--padding);
 		padding-top: 30px;
 		padding-bottom: 70px;
+		max-width: 1366px;
+		margin: 0 auto;
 	}
  
 	p, h1, h2, h3, h4 {

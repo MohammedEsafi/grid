@@ -15,6 +15,7 @@ const Wrapper = styled.div`
 
 	& > a {
 		width: 33%;
+		padding-right: 5px;
 		margin-bottom: 25px;
 
 		${media.phone`
