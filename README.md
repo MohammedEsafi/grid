@@ -9,6 +9,8 @@
 
 ### 🚀 Quick start
 
+---
+
 Install the required dependencies using ::
 
 ```shell
@@ -24,6 +26,8 @@ npm run develop
 Open the code and start customizing! :: Your site is now running at http://localhost:8000!
 
 ### 💡 Learn more
+
+---
 
 -  [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
