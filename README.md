@@ -3,8 +3,10 @@
     <img alt="Gatsby" src="./src/images/icon.png" width="60" />
   </a>
 </p>
-
-## 🚀 Quick start
+<h1 align="center">
+  Grid
+</h1>
+### 🚀 Quick start
 
 Install the required dependencies using ::
 
@@ -20,7 +22,7 @@ npm run develop
 
 Open the code and start customizing! :: Your site is now running at http://localhost:8000!
 
-## 💡 Learn more
+### 💡 Learn more
 
 -  [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
