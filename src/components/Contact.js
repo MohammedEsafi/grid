@@ -32,10 +32,12 @@ const Form = styled.form`
 		font-weight: 600;
 		color: var(--purple-dark);
 		resize: none;
+		font-family: var(--font);
 	}
 
 	& textarea::placeholder {
 		color: var(--purple-dark);
+		font-family: var(--font);
 	}
 
 	& input,
@@ -64,12 +66,10 @@ const Contact = () => {
 		<Form>
 			<Flex>
 				<input placeholder='Your name' />
-				{/* <SizedBox width={'20px'} /> */}
 				<input placeholder='E-mail' />
 			</Flex>
 			<Flex>
 				<textarea rows='2' placeholder='Leave your message' />
-				{/* <SizedBox width={'20px'} /> */}
 				<Button primary>send</Button>
 			</Flex>
 		</Form>
