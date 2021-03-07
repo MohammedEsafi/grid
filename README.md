@@ -6,6 +6,7 @@
 <h1 align="center">
   Grid
 </h1>
+
 ### 🚀 Quick start
 
 Install the required dependencies using ::
