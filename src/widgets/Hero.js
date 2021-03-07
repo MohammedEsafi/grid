@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Nav, Grid } from '@components';
 import config from '@config';
 import { clamping } from '@utils';
+import hero from '../images/hero.svg';
 
 const { breakpoints, fontSize } = config;
 
@@ -10,6 +11,14 @@ const Header = styled.header`
 	display: flex;
 	flex-direction: column;
 	box-shadow: var(--dp2-box-shadow);
+`;
+
+const Background = styled.div`
+	z-index: -1;
+	background-size: contain;
+	background-image: url(${hero});
+	background-repeat: no-repeat;
+	background-position: right top;
 `;
 
 const Content = styled.section`
@@ -67,13 +76,15 @@ const Hero = () => {
 			<Header>
 				<Nav />
 			</Header>
-			<Content id='usage'>
-				<Heading>
-					Combine <span className='red'>fine</span> images
-				</Heading>
-				<SubTitle>To represent a product</SubTitle>
-				<Grid />
-			</Content>
+			<Background>
+				<Content id='usage'>
+					<Heading>
+						Combine <span className='red'>fine</span> images
+					</Heading>
+					<SubTitle>To represent a product</SubTitle>
+					<Grid />
+				</Content>
+			</Background>
 		</>
 	);
 };
