@@ -65,7 +65,7 @@ const Footer = () => {
 					<Contact />
 				</div>
 			</Wrapper>
-			<img src={wave} />
+			<img alt='' src={wave} />
 		</>
 	);
 };
