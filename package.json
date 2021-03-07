@@ -1,15 +1,9 @@
 {
 	"name": "grid",
 	"version": "1.0.0",
-	"private": true,
 	"author": "Mohammed Esafi",
 	"keywords": [
-		"gatsby",
-		"PWA",
-		"progressive",
-		"web",
-		"app",
-		"JAMstack"
+		"gatsby"
 	],
 	"scripts": {
 		"develop": "gatsby develop",
