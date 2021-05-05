@@ -54,7 +54,7 @@ const Footer = () => {
 				</div>
 				<div>
 					<Title>email us</Title>
-					<Link href='mailto:hello@mesafi.com'>hello@mesafi.com</Link>
+					<Link href='mailto:hello@example.com'>hello@example.com</Link>
 				</div>
 				<div>
 					<Title>information</Title>
