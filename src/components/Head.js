@@ -6,6 +6,7 @@ const Head = () => {
 		<Helmet>
 			<meta charSet='utf-8' />
 			<meta name='viewport' content='width=device-width, initial-scale=1' />
+			<meta name='robots' content='index, follow' />
 			<title>Grid</title>
 		</Helmet>
 	);
